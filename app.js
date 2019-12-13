@@ -5,6 +5,7 @@ let probability = '';
 
 function modelReady() {
   console.log('Model Is Ready!');
+  createP('Model Is Ready!');
   mobilenet.predict(gotResults);
 }
 
